@@ -1,0 +1,52 @@
+name: Vigilante
+
+# Cada 5 minutos. GitHub no garantiza el minuto exacto (bajo carga puede
+# atrasarse), pero para el colegio alcanza de sobra.
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:        # botón "Run workflow" para probarlo a mano
+
+concurrency:
+  group: vigilante
+  cancel-in-progress: false
+
+permissions:
+  contents: write           # para guardar estado.json
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Revisar los tres sistemas
+        id: revisar
+        continue-on-error: true
+        env:
+          WA_ACCESS_TOKEN: ${{ secrets.WA_ACCESS_TOKEN }}
+          WA_PHONE_NUMBER_ID: ${{ secrets.WA_PHONE_NUMBER_ID }}
+          AVISAR_A: ${{ secrets.AVISAR_A }}
+        run: node vigilante.mjs
+
+      # Se guarda siempre, aunque haya fallado: estado.json es la memoria entre
+      # corridas. Si no se guarda, el próximo chequeo vuelve a avisar lo mismo.
+      - name: Guardar el estado
+        run: |
+          git config user.name "Vigilante"
+          git config user.email "vigilante@juvenilia.online"
+          git add estado.json
+          git diff --staged --quiet || git commit -m "Estado $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase --quiet || true
+          git push --quiet || true
+
+      - name: Marcar la corrida en rojo si hay algo roto
+        if: steps.revisar.outcome == 'failure'
+        run: |
+          echo "Hay chequeos fallando. Ver el paso anterior."
+          exit 1

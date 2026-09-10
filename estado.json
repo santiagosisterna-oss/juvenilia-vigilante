@@ -1,0 +1,117 @@
+{
+  "chequeos": {
+    "portal": {
+      "ok": true,
+      "desde": "2026-09-10T17:22:30.754Z",
+      "avisadoEn": null
+    },
+    "ssl": {
+      "ok": true,
+      "desde": "2026-09-10T17:22:30.754Z",
+      "avisadoEn": null
+    },
+    "app": {
+      "ok": true,
+      "desde": "2026-09-10T17:22:30.754Z",
+      "avisadoEn": null
+    },
+    "gestion": {
+      "ok": true,
+      "desde": "2026-09-10T17:22:30.754Z",
+      "avisadoEn": null
+    },
+    "chatbot": {
+      "ok": true,
+      "desde": "2026-09-10T17:22:30.754Z",
+      "avisadoEn": null
+    },
+    "pantalla_app": {
+      "ok": true,
+      "desde": "2026-09-10T17:23:09.782Z",
+      "avisadoEn": null
+    },
+    "pantalla_gestion": {
+      "ok": true,
+      "desde": "2026-09-10T17:22:48.196Z",
+      "avisadoEn": null
+    },
+    "pantalla_chatbot": {
+      "ok": true,
+      "desde": "2026-09-10T17:22:48.196Z",
+      "avisadoEn": null
+    },
+    "cache": {
+      "ok": true,
+      "desde": "2026-09-10T17:22:30.754Z",
+      "avisadoEn": null
+    },
+    "whatsapp": {
+      "ok": true,
+      "desde": "2026-09-10T17:22:30.754Z",
+      "avisadoEn": null
+    }
+  },
+  "ultimaCorrida": "2026-09-10T17:23:09.782Z",
+  "resumen": [
+    {
+      "id": "portal",
+      "titulo": "Portal juvenilia.online",
+      "ok": true,
+      "detalle": "OK."
+    },
+    {
+      "id": "ssl",
+      "titulo": "Certificado de juvenilia.online",
+      "ok": true,
+      "detalle": "Dominio con HTTPS válido."
+    },
+    {
+      "id": "app",
+      "titulo": "Juvenilia App (alumnos y familias)",
+      "ok": true,
+      "detalle": "OK en 461 ms."
+    },
+    {
+      "id": "gestion",
+      "titulo": "Juvenilia Gestión (tesorería)",
+      "ok": true,
+      "detalle": "OK en 423 ms."
+    },
+    {
+      "id": "chatbot",
+      "titulo": "Juvenilia Chatbot (comunicación)",
+      "ok": true,
+      "detalle": "OK en 421 ms."
+    },
+    {
+      "id": "pantalla_app",
+      "titulo": "Pantalla de ingreso — App",
+      "ok": true,
+      "detalle": "Pantalla completa, 14 archivos OK."
+    },
+    {
+      "id": "pantalla_gestion",
+      "titulo": "Pantalla de ingreso — Gestión",
+      "ok": true,
+      "detalle": "Pantalla completa, 9 archivos OK."
+    },
+    {
+      "id": "pantalla_chatbot",
+      "titulo": "Pantalla de ingreso — Chatbot",
+      "ok": true,
+      "detalle": "Pantalla completa, 8 archivos OK."
+    },
+    {
+      "id": "cache",
+      "titulo": "Caché del portal",
+      "ok": true,
+      "detalle": "No guarda copias."
+    },
+    {
+      "id": "whatsapp",
+      "titulo": "WhatsApp del colegio",
+      "ok": true,
+      "detalle": "Reputación GREEN."
+    }
+  ]
+}
