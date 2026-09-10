@@ -1,16 +1,19 @@
 name: Vigilante
 
-# Cada 5 minutos. GitHub no garantiza el minuto exacto (bajo carga puede
-# atrasarse), pero para el colegio alcanza de sobra.
+# Una vez por hora. La corrida NO termina enseguida: se queda despierta 5 h 30
+# chequeando cada 3 minutos, así que el monitoreo es continuo aunque GitHub
+# dispare tarde. Los horarios muy seguidos (cada 5 minutos) GitHub los puede
+# saltear directamente; los espaciados son confiables.
 on:
   schedule:
-    - cron: "*/5 * * * *"
-    - cron: "2,12,22,32,42,52 * * * *"   # segunda serie: si GitHub demora una, entra la otra
-  workflow_dispatch:        # botón "Run workflow" para probarlo a mano
+    - cron: "7 * * * *"
+  workflow_dispatch:
 
+# La corrida nueva reemplaza a la anterior: nunca hay dos a la vez, y no queda
+# hueco entre el fin de una y el arranque de la siguiente.
 concurrency:
   group: vigilante
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: write           # para guardar estado.json
@@ -18,7 +21,7 @@ permissions:
 jobs:
   revisar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 350    # 5 h 50; la corrida se corta sola a las 5 h 30
     steps:
       - uses: actions/checkout@v4
 
@@ -26,28 +29,14 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Revisar los tres sistemas
-        id: revisar
-        continue-on-error: true
+      - name: Preparar el guardado del estado
+        run: |
+          git config user.name "Vigilante"
+          git config user.email "vigilante@juvenilia.online"
+
+      - name: Vigilar los tres sistemas
         env:
           WA_ACCESS_TOKEN: ${{ secrets.WA_ACCESS_TOKEN }}
           WA_PHONE_NUMBER_ID: ${{ secrets.WA_PHONE_NUMBER_ID }}
           AVISAR_A: ${{ secrets.AVISAR_A }}
-        run: node vigilante.mjs
-
-      # Se guarda siempre, aunque haya fallado: estado.json es la memoria entre
-      # corridas. Si no se guarda, el próximo chequeo vuelve a avisar lo mismo.
-      - name: Guardar el estado
-        run: |
-          git config user.name "Vigilante"
-          git config user.email "vigilante@juvenilia.online"
-          git add estado.json
-          git diff --staged --quiet || git commit -m "Estado $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git pull --rebase --quiet || true
-          git push --quiet || true
-
-      - name: Marcar la corrida en rojo si hay algo roto
-        if: steps.revisar.outcome == 'failure'
-        run: |
-          echo "Hay chequeos fallando. Ver el paso anterior."
-          exit 1
+        run: node vigilante.mjs --continuo

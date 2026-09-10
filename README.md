@@ -1,6 +1,6 @@
 # Vigilante de Juvenilia Online
 
-Revisa cada 5 minutos que los tres sistemas del colegio estén funcionando y avisa
+Revisa cada 3 minutos que los tres sistemas del colegio estén funcionando y avisa
 por WhatsApp cuando algo se rompe — y de nuevo cuando se arregla.
 
 **Qué mira:**
@@ -19,9 +19,16 @@ por WhatsApp cuando algo se rompe — y de nuevo cuando se arregla.
 mismo lugar que lo vigilado, una caída de esa plataforma se llevaría puesto
 también al que tiene que avisar. GitHub Actions es un tercer proveedor.
 
+**Cómo se mantiene despierto:** el reloj de GitHub es "mejor esfuerzo". Con
+horarios muy seguidos (cada 5 minutos) puede directamente no dispararse — el
+10/09/2026 no arrancó en una hora. Los espaciados sí son confiables. Por eso se
+dispara **una vez por hora** y esa corrida **se queda despierta 5 h 30**
+chequeando cada 3 minutos. La corrida nueva reemplaza a la anterior, así que
+nunca hay dos a la vez ni queda un hueco entre una y otra.
+
 **Por qué el repo es público:** GitHub cobra los minutos de Actions en repos
-privados. Correr cada 5 minutos son ~8.600 corridas por mes, muy por encima del
-plan gratis. En repos públicos los minutos son ilimitados. Acá **no hay ningún
+privados, y acá se usan muchas horas. En repos públicos los minutos son
+ilimitados. Acá **no hay ningún
 dato del colegio ni ninguna clave**: solo direcciones que ya son públicas. Las
 credenciales viven en *Settings → Secrets* de este repo y nunca se escriben en el
 código.
