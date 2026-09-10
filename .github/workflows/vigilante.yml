@@ -5,6 +5,7 @@ name: Vigilante
 on:
   schedule:
     - cron: "*/5 * * * *"
+    - cron: "2,12,22,32,42,52 * * * *"   # segunda serie: si GitHub demora una, entra la otra
   workflow_dispatch:        # botón "Run workflow" para probarlo a mano
 
 concurrency:
