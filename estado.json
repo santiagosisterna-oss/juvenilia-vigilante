@@ -31,10 +31,9 @@
       "avisadoEn": null
     },
     "pantalla_gestion": {
-      "ok": false,
-      "desde": "2026-09-17T18:29:31.778Z",
-      "avisadoEn": "2026-09-17T18:29:31.778Z",
-      "detalle": "La pantalla contesta con error 404."
+      "ok": true,
+      "desde": "2026-09-17T18:32:49.820Z",
+      "avisadoEn": null
     },
     "pantalla_chatbot": {
       "ok": true,
@@ -52,7 +51,7 @@
       "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-09-17T18:29:31.778Z",
+  "ultimaCorrida": "2026-09-17T18:32:49.820Z",
   "resumen": [
     {
       "id": "portal",
@@ -70,19 +69,19 @@
       "id": "app",
       "titulo": "Juvenilia App (alumnos y familias)",
       "ok": true,
-      "detalle": "OK en 1542 ms."
+      "detalle": "OK en 1351 ms."
     },
     {
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
       "ok": true,
-      "detalle": "OK en 802 ms."
+      "detalle": "OK en 566 ms."
     },
     {
       "id": "chatbot",
       "titulo": "Juvenilia Chatbot (comunicación)",
       "ok": true,
-      "detalle": "OK en 981 ms."
+      "detalle": "OK en 781 ms."
     },
     {
       "id": "pantalla_app",
@@ -93,8 +92,8 @@
     {
       "id": "pantalla_gestion",
       "titulo": "Pantalla de ingreso — Gestión",
-      "ok": false,
-      "detalle": "La pantalla contesta con error 404."
+      "ok": true,
+      "detalle": "Pantalla completa, 9 archivos OK."
     },
     {
       "id": "pantalla_chatbot",
