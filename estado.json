@@ -51,7 +51,7 @@
       "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-09-18T01:28:45.753Z",
+  "ultimaCorrida": "2026-09-18T02:29:24.081Z",
   "resumen": [
     {
       "id": "portal",
@@ -69,19 +69,19 @@
       "id": "app",
       "titulo": "Juvenilia App (alumnos y familias)",
       "ok": true,
-      "detalle": "OK en 1348 ms."
+      "detalle": "OK en 1975 ms."
     },
     {
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
       "ok": true,
-      "detalle": "OK en 512 ms."
+      "detalle": "OK en 519 ms."
     },
     {
       "id": "chatbot",
       "titulo": "Juvenilia Chatbot (comunicación)",
       "ok": true,
-      "detalle": "OK en 668 ms."
+      "detalle": "OK en 706 ms."
     },
     {
       "id": "pantalla_app",
