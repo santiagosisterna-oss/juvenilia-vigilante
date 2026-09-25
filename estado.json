@@ -26,10 +26,9 @@
       "avisadoEn": null
     },
     "pantalla_app": {
-      "ok": false,
-      "desde": "2026-09-25T14:14:37.934Z",
-      "avisadoEn": "2026-09-25T14:14:37.934Z",
-      "detalle": "La pantalla abre pero se ve en blanco: le faltan 8 archivo(s) de código. Casi seguro el portal está sirviendo una copia vieja (ver regla 16 del handoff)."
+      "ok": true,
+      "desde": "2026-09-25T14:17:57.602Z",
+      "avisadoEn": null
     },
     "pantalla_gestion": {
       "ok": true,
@@ -37,10 +36,9 @@
       "avisadoEn": null
     },
     "pantalla_chatbot": {
-      "ok": false,
-      "desde": "2026-09-25T14:14:37.934Z",
-      "avisadoEn": "2026-09-25T14:14:37.934Z",
-      "detalle": "La pantalla abre pero se ve en blanco: le faltan 4 archivo(s) de código. Casi seguro el portal está sirviendo una copia vieja (ver regla 16 del handoff)."
+      "ok": true,
+      "desde": "2026-09-25T14:17:57.602Z",
+      "avisadoEn": null
     },
     "cache": {
       "ok": true,
@@ -53,7 +51,7 @@
       "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-09-25T14:14:37.934Z",
+  "ultimaCorrida": "2026-09-25T14:17:57.602Z",
   "resumen": [
     {
       "id": "portal",
@@ -71,25 +69,25 @@
       "id": "app",
       "titulo": "Juvenilia App (alumnos y familias)",
       "ok": true,
-      "detalle": "OK en 933 ms."
+      "detalle": "OK en 1282 ms."
     },
     {
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
       "ok": true,
-      "detalle": "OK en 172 ms."
+      "detalle": "OK en 539 ms."
     },
     {
       "id": "chatbot",
       "titulo": "Juvenilia Chatbot (comunicación)",
       "ok": true,
-      "detalle": "OK en 357 ms."
+      "detalle": "OK en 657 ms."
     },
     {
       "id": "pantalla_app",
       "titulo": "Pantalla de ingreso — App",
-      "ok": false,
-      "detalle": "La pantalla abre pero se ve en blanco: le faltan 8 archivo(s) de código. Casi seguro el portal está sirviendo una copia vieja (ver regla 16 del handoff)."
+      "ok": true,
+      "detalle": "Pantalla completa, 14 archivos OK."
     },
     {
       "id": "pantalla_gestion",
@@ -100,8 +98,8 @@
     {
       "id": "pantalla_chatbot",
       "titulo": "Pantalla de ingreso — Chatbot",
-      "ok": false,
-      "detalle": "La pantalla abre pero se ve en blanco: le faltan 4 archivo(s) de código. Casi seguro el portal está sirviendo una copia vieja (ver regla 16 del handoff)."
+      "ok": true,
+      "detalle": "Pantalla completa, 8 archivos OK."
     },
     {
       "id": "cache",
