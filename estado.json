@@ -16,9 +16,10 @@
       "avisadoEn": null
     },
     "gestion": {
-      "ok": true,
-      "desde": "2026-09-10T17:22:30.754Z",
-      "avisadoEn": null
+      "ok": false,
+      "desde": "2026-09-28T17:35:27.295Z",
+      "avisadoEn": "2026-09-28T17:35:27.295Z",
+      "detalle": "Contestó con error 502."
     },
     "chatbot": {
       "ok": true,
@@ -31,9 +32,10 @@
       "avisadoEn": null
     },
     "pantalla_gestion": {
-      "ok": true,
-      "desde": "2026-09-20T12:40:34.457Z",
-      "avisadoEn": null
+      "ok": false,
+      "desde": "2026-09-28T17:35:27.295Z",
+      "avisadoEn": "2026-09-28T17:35:27.295Z",
+      "detalle": "La pantalla contesta con error 502."
     },
     "pantalla_chatbot": {
       "ok": true,
@@ -51,7 +53,7 @@
       "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-09-28T17:17:13.402Z",
+  "ultimaCorrida": "2026-09-28T17:35:27.295Z",
   "resumen": [
     {
       "id": "portal",
@@ -69,19 +71,19 @@
       "id": "app",
       "titulo": "Juvenilia App (alumnos y familias)",
       "ok": true,
-      "detalle": "OK en 2117 ms."
+      "detalle": "OK en 1077 ms."
     },
     {
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
-      "ok": true,
-      "detalle": "OK en 684 ms."
+      "ok": false,
+      "detalle": "Contestó con error 502."
     },
     {
       "id": "chatbot",
       "titulo": "Juvenilia Chatbot (comunicación)",
       "ok": true,
-      "detalle": "OK en 920 ms."
+      "detalle": "OK en 289 ms."
     },
     {
       "id": "pantalla_app",
@@ -92,8 +94,8 @@
     {
       "id": "pantalla_gestion",
       "titulo": "Pantalla de ingreso — Gestión",
-      "ok": true,
-      "detalle": "Pantalla completa, 9 archivos OK."
+      "ok": false,
+      "detalle": "La pantalla contesta con error 502."
     },
     {
       "id": "pantalla_chatbot",
