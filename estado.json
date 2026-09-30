@@ -19,12 +19,13 @@
       "ok": false,
       "desde": "2026-09-30T07:37:07.621Z",
       "avisadoEn": "2026-09-30T07:37:07.621Z",
-      "detalle": "Contestó con error 404."
+      "detalle": "Anda pero muy lento: tardó 16 segundos."
     },
     "chatbot": {
-      "ok": true,
-      "desde": "2026-09-30T07:40:14.261Z",
-      "avisadoEn": null
+      "ok": false,
+      "desde": "2026-09-30T07:43:32.797Z",
+      "avisadoEn": "2026-09-30T07:43:32.797Z",
+      "detalle": "Contestó con error 404."
     },
     "pantalla_app": {
       "ok": true,
@@ -37,9 +38,10 @@
       "avisadoEn": null
     },
     "pantalla_chatbot": {
-      "ok": true,
-      "desde": "2026-09-30T07:40:14.261Z",
-      "avisadoEn": null
+      "ok": false,
+      "desde": "2026-09-30T07:43:32.797Z",
+      "avisadoEn": "2026-09-30T07:43:32.797Z",
+      "detalle": "La pantalla no abre (no contestó a tiempo)."
     },
     "cache": {
       "ok": true,
@@ -52,7 +54,7 @@
       "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-09-30T07:40:14.261Z",
+  "ultimaCorrida": "2026-09-30T07:43:32.797Z",
   "resumen": [
     {
       "id": "portal",
@@ -70,19 +72,19 @@
       "id": "app",
       "titulo": "Juvenilia App (alumnos y familias)",
       "ok": true,
-      "detalle": "OK en 1303 ms."
+      "detalle": "OK en 2161 ms."
     },
     {
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
       "ok": false,
-      "detalle": "Contestó con error 404."
+      "detalle": "Anda pero muy lento: tardó 16 segundos."
     },
     {
       "id": "chatbot",
       "titulo": "Juvenilia Chatbot (comunicación)",
-      "ok": true,
-      "detalle": "OK en 847 ms."
+      "ok": false,
+      "detalle": "Contestó con error 404."
     },
     {
       "id": "pantalla_app",
@@ -99,8 +101,8 @@
     {
       "id": "pantalla_chatbot",
       "titulo": "Pantalla de ingreso — Chatbot",
-      "ok": true,
-      "detalle": "Pantalla completa, 8 archivos OK."
+      "ok": false,
+      "detalle": "La pantalla no abre (no contestó a tiempo)."
     },
     {
       "id": "cache",
