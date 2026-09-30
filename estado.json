@@ -19,7 +19,7 @@
       "ok": false,
       "desde": "2026-09-30T07:37:07.621Z",
       "avisadoEn": "2026-09-30T07:37:07.621Z",
-      "detalle": "Anda pero muy lento: tardó 16 segundos."
+      "detalle": "No responde (no contestó a tiempo)."
     },
     "chatbot": {
       "ok": false,
@@ -38,10 +38,9 @@
       "avisadoEn": null
     },
     "pantalla_chatbot": {
-      "ok": false,
-      "desde": "2026-09-30T07:43:32.797Z",
-      "avisadoEn": "2026-09-30T07:43:32.797Z",
-      "detalle": "La pantalla no abre (no contestó a tiempo)."
+      "ok": true,
+      "desde": "2026-09-30T07:47:07.077Z",
+      "avisadoEn": null
     },
     "cache": {
       "ok": true,
@@ -54,7 +53,7 @@
       "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-09-30T07:43:32.797Z",
+  "ultimaCorrida": "2026-09-30T07:47:07.077Z",
   "resumen": [
     {
       "id": "portal",
@@ -72,13 +71,13 @@
       "id": "app",
       "titulo": "Juvenilia App (alumnos y familias)",
       "ok": true,
-      "detalle": "OK en 2161 ms."
+      "detalle": "OK en 1489 ms."
     },
     {
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
       "ok": false,
-      "detalle": "Anda pero muy lento: tardó 16 segundos."
+      "detalle": "No responde (no contestó a tiempo)."
     },
     {
       "id": "chatbot",
@@ -101,8 +100,8 @@
     {
       "id": "pantalla_chatbot",
       "titulo": "Pantalla de ingreso — Chatbot",
-      "ok": false,
-      "detalle": "La pantalla no abre (no contestó a tiempo)."
+      "ok": true,
+      "detalle": "Pantalla completa, 8 archivos OK."
     },
     {
       "id": "cache",
