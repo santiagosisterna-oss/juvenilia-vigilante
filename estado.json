@@ -16,14 +16,16 @@
       "avisadoEn": null
     },
     "gestion": {
-      "ok": true,
-      "desde": "2026-09-28T17:38:46.519Z",
-      "avisadoEn": null
+      "ok": false,
+      "desde": "2026-09-30T07:37:07.621Z",
+      "avisadoEn": "2026-09-30T07:37:07.621Z",
+      "detalle": "Contestó con error 404."
     },
     "chatbot": {
-      "ok": true,
-      "desde": "2026-09-10T17:22:30.754Z",
-      "avisadoEn": null
+      "ok": false,
+      "desde": "2026-09-30T07:37:07.621Z",
+      "avisadoEn": "2026-09-30T07:37:07.621Z",
+      "detalle": "Contestó con error 404."
     },
     "pantalla_app": {
       "ok": true,
@@ -31,14 +33,16 @@
       "avisadoEn": null
     },
     "pantalla_gestion": {
-      "ok": true,
-      "desde": "2026-09-28T17:38:46.519Z",
-      "avisadoEn": null
+      "ok": false,
+      "desde": "2026-09-30T07:37:07.621Z",
+      "avisadoEn": "2026-09-30T07:37:07.621Z",
+      "detalle": "La pantalla contesta con error 404."
     },
     "pantalla_chatbot": {
-      "ok": true,
-      "desde": "2026-09-25T14:17:57.602Z",
-      "avisadoEn": null
+      "ok": false,
+      "desde": "2026-09-30T07:37:07.621Z",
+      "avisadoEn": "2026-09-30T07:37:07.621Z",
+      "detalle": "La pantalla contesta con error 404."
     },
     "cache": {
       "ok": true,
@@ -51,7 +55,7 @@
       "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-09-30T07:34:03.565Z",
+  "ultimaCorrida": "2026-09-30T07:37:07.621Z",
   "resumen": [
     {
       "id": "portal",
@@ -69,19 +73,19 @@
       "id": "app",
       "titulo": "Juvenilia App (alumnos y familias)",
       "ok": true,
-      "detalle": "OK en 1500 ms."
+      "detalle": "OK en 2576 ms."
     },
     {
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
-      "ok": true,
-      "detalle": "OK en 692 ms."
+      "ok": false,
+      "detalle": "Contestó con error 404."
     },
     {
       "id": "chatbot",
       "titulo": "Juvenilia Chatbot (comunicación)",
-      "ok": true,
-      "detalle": "OK en 884 ms."
+      "ok": false,
+      "detalle": "Contestó con error 404."
     },
     {
       "id": "pantalla_app",
@@ -92,14 +96,14 @@
     {
       "id": "pantalla_gestion",
       "titulo": "Pantalla de ingreso — Gestión",
-      "ok": true,
-      "detalle": "Pantalla completa, 9 archivos OK."
+      "ok": false,
+      "detalle": "La pantalla contesta con error 404."
     },
     {
       "id": "pantalla_chatbot",
       "titulo": "Pantalla de ingreso — Chatbot",
-      "ok": true,
-      "detalle": "Pantalla completa, 8 archivos OK."
+      "ok": false,
+      "detalle": "La pantalla contesta con error 404."
     },
     {
       "id": "cache",
