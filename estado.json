@@ -16,16 +16,14 @@
       "avisadoEn": null
     },
     "gestion": {
-      "ok": false,
-      "desde": "2026-09-30T07:37:07.621Z",
-      "avisadoEn": "2026-09-30T07:37:07.621Z",
-      "detalle": "No responde (no contestó a tiempo)."
+      "ok": true,
+      "desde": "2026-09-30T07:50:34.421Z",
+      "avisadoEn": null
     },
     "chatbot": {
-      "ok": false,
-      "desde": "2026-09-30T07:43:32.797Z",
-      "avisadoEn": "2026-09-30T07:43:32.797Z",
-      "detalle": "Contestó con error 404."
+      "ok": true,
+      "desde": "2026-09-30T07:50:34.421Z",
+      "avisadoEn": null
     },
     "pantalla_app": {
       "ok": true,
@@ -53,7 +51,7 @@
       "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-09-30T07:47:07.077Z",
+  "ultimaCorrida": "2026-09-30T07:50:34.421Z",
   "resumen": [
     {
       "id": "portal",
@@ -71,19 +69,19 @@
       "id": "app",
       "titulo": "Juvenilia App (alumnos y familias)",
       "ok": true,
-      "detalle": "OK en 1489 ms."
+      "detalle": "OK en 1511 ms."
     },
     {
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
-      "ok": false,
-      "detalle": "No responde (no contestó a tiempo)."
+      "ok": true,
+      "detalle": "OK en 726 ms."
     },
     {
       "id": "chatbot",
       "titulo": "Juvenilia Chatbot (comunicación)",
-      "ok": false,
-      "detalle": "Contestó con error 404."
+      "ok": true,
+      "detalle": "OK en 912 ms."
     },
     {
       "id": "pantalla_app",
