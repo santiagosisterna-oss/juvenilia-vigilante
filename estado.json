@@ -51,7 +51,7 @@
       "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-10-18T22:31:09.180Z",
+  "ultimaCorrida": "2026-10-18T23:59:40.078Z",
   "resumen": [
     {
       "id": "portal",
@@ -75,13 +75,13 @@
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
       "ok": true,
-      "detalle": "OK en 611 ms."
+      "detalle": "OK en 534 ms."
     },
     {
       "id": "chatbot",
       "titulo": "Juvenilia Chatbot (comunicación)",
       "ok": true,
-      "detalle": "OK en 496 ms."
+      "detalle": "OK en 705 ms."
     },
     {
       "id": "pantalla_app",
