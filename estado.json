@@ -16,9 +16,10 @@
       "avisadoEn": null
     },
     "gestion": {
-      "ok": true,
-      "desde": "2026-10-27T14:48:03.536Z",
-      "avisadoEn": null
+      "ok": false,
+      "desde": "2026-11-12T10:39:25.944Z",
+      "avisadoEn": "2026-11-12T10:39:25.944Z",
+      "detalle": "La aplicación abre pero su base de datos no contesta."
     },
     "chatbot": {
       "ok": true,
@@ -51,7 +52,7 @@
       "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-11-12T06:55:37.108Z",
+  "ultimaCorrida": "2026-11-12T10:39:25.944Z",
   "resumen": [
     {
       "id": "portal",
@@ -69,19 +70,19 @@
       "id": "app",
       "titulo": "Juvenilia App (alumnos y familias)",
       "ok": true,
-      "detalle": "OK en 813 ms."
+      "detalle": "OK en 301 ms."
     },
     {
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
-      "ok": true,
-      "detalle": "OK en 587 ms."
+      "ok": false,
+      "detalle": "La aplicación abre pero su base de datos no contesta."
     },
     {
       "id": "chatbot",
       "titulo": "Juvenilia Chatbot (comunicación)",
       "ok": true,
-      "detalle": "OK en 806 ms."
+      "detalle": "OK en 493 ms."
     },
     {
       "id": "pantalla_app",
