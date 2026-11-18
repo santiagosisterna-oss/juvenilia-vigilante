@@ -46,13 +46,12 @@
       "avisadoEn": null
     },
     "whatsapp": {
-      "ok": false,
-      "desde": "2026-11-18T15:43:30.957Z",
-      "avisadoEn": "2026-11-18T15:43:30.957Z",
-      "detalle": "Meta no responde."
+      "ok": true,
+      "desde": "2026-11-18T15:46:33.910Z",
+      "avisadoEn": null
     }
   },
-  "ultimaCorrida": "2026-11-18T15:43:30.957Z",
+  "ultimaCorrida": "2026-11-18T15:46:33.910Z",
   "resumen": [
     {
       "id": "portal",
@@ -70,19 +69,19 @@
       "id": "app",
       "titulo": "Juvenilia App (alumnos y familias)",
       "ok": true,
-      "detalle": "OK en 365 ms."
+      "detalle": "OK en 340 ms."
     },
     {
       "id": "gestion",
       "titulo": "Juvenilia Gestión (tesorería)",
       "ok": true,
-      "detalle": "OK en 226 ms."
+      "detalle": "OK en 147 ms."
     },
     {
       "id": "chatbot",
       "titulo": "Juvenilia Chatbot (comunicación)",
       "ok": true,
-      "detalle": "OK en 183 ms."
+      "detalle": "OK en 176 ms."
     },
     {
       "id": "pantalla_app",
@@ -111,8 +110,8 @@
     {
       "id": "whatsapp",
       "titulo": "WhatsApp del colegio",
-      "ok": false,
-      "detalle": "Meta no responde."
+      "ok": true,
+      "detalle": "Reputación GREEN."
     }
   ]
 }
